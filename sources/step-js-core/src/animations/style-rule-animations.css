@@ -1,0 +1,9 @@
+/* avoid 1px moving */
+
+.-style-rule-animation {
+  -backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}

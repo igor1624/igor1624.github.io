@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "target": "es5",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@step-js-core/*": ["src/step-js/src/core/*"],
+      "@step-js-widgets/*": ["src/step-js/src/widgets/*"],
+      "@step-js-bootstrap-widgets/*": ["src/step-js/src/bootstrap-widgets/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "src/step-js/app",
+  ]
+}
